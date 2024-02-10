@@ -16,10 +16,11 @@ The following technologies have been used:
 
 This API implements the following routes:
 
-| **Endpoint**     	| **HTTP method**    | **Description**      	| **Payload** 
-|-----------------	|----------------  	 | ---------------
-| `/api`     	    | GET           	 | ping the server    	    |
-| `/api/human_age`	| POST       	     | retrieve age  guess  	| name: string
+| **Endpoint**     | **HTTP method**    | **Description**      	| **Payload** 
+|-----------------	|----------------  	 | ---------------       | -----------
+| `/api`     	     | GET           	    | ping the server    	  | -
+| `/api/human_age`	| POST       	       | retrieve age  guess  	| name: string
+
 
 
 ### Prerequisites
