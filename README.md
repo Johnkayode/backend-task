@@ -63,7 +63,7 @@ Additional Checks to verify, and possibly correct, the code formatting
 (using `black`) and the ordering and organization of import statements (using `isort`).
 
 ```bash
-$ docker-compose exec backend-task-app-1 pytest black . --check
-$ docker-compose exec backend-task-app-1 isort . --check-only
+$ docker exec backend-task-app-1 black . --check
+$ docker exec backend-task-app-1 isort . --check-only
 ```
 
