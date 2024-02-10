@@ -1,5 +1,4 @@
-# Deploy and Scale Machine Learning Models with Keras, FastAPI, Redis and Docker Swarm
-Serve a production-ready and scalable Keras-based deep learning model image classification using FastAPI, Redis and Docker Swarm. 
+# Agify Backend Task
 
 ## How to Use
 
@@ -59,3 +58,12 @@ The tests can be executed with:
 ```bash
 $ docker exec backend-task-app-1 pytest
 ```
+
+Additional Checks to verify, and possibly correct, the code formatting 
+(using `black`) and the ordering and organization of import statements (using `isort`).
+
+```bash
+$ docker-compose exec backend-task-app-1 pytest black . --check
+$ docker-compose exec backend-task-app-1 isort . --check-only
+```
+

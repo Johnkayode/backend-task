@@ -10,8 +10,7 @@ class Agify(Session):
         return self.url + f"?name={name}"
 
     def retrieve(self, name: str) -> dict:
-        ''' return age object '''
+        """return age object"""
         url = self.build_url(name)
         response = self.get(url)
         return response.json()
-       
